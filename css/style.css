@@ -8,9 +8,9 @@
     /* Colours */
     --hue-color: 600;
 
-    --first-color: hsl(var(--hue-color), 69%, 61%);
-    --first-color-second: hsl(var(--hue-color), 69%, 61%);
-    --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+    --first-color: hsl(212, 100%, 18%);
+    --first-color-second: hsl(210, 40%, 28%);
+    --first-color-alt: hsl(210, 40%, 28%);
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
     --title-color: hsl(var(--hue-color), 8%, 15%);
     --text-color: hsl(var(--hue-color), 8%, 45%);
@@ -259,6 +259,7 @@ img{
 .home-blob{
     width: 200px;
     fill: var(--first-color);
+    
 }
 
 .home-blob-img{
